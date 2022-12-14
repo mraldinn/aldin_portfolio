@@ -1,963 +1,751 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aldin Dedić - Portfolio</title>
+  <title>Aldin Dedić | Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Required Social Preview MetaTags -->
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Aldin Dedić | Portfolio" />
+  <meta name="description"
+    content="Ja sam Grafički dizajner iz Sarajeva, Bosna i Hercegovina, radim na reklamnim promocijama i štampanim medijima. uživam u pretvaranju složnih problema u jednostavne, lijepe i intuitivne dizajne." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mraldinn.github.io/" />
+  <meta property="og:title" content="Aldin Dedić | Portfolio" />
+  <meta property="og:description"
+    content="Ja sam Grafički dizajner iz Sarajeva, Bosna i Hercegovina, radim na reklamnim promocijama i štampanim medijima. uživam u pretvaranju složnih problema u jednostavne, lijepe i intuitivne dizajne." />
+  <meta property="og:image" content="images/avatar.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https:/m/raldinn.github.io/" />
+  <meta property="twitter:title" content="Aldin Dedić | Portfolio" />
+  <meta property="twitter:description"
+    content="Ja sam Grafički dizajner iz Sarajeva, Bosna i Hercegovina, radim na reklamnim promocijama i štampanim medijima. uživam u pretvaranju složnih problema u jednostavne, lijepe i intuitivne dizajne." />
+  <meta property="twitter:image" content="images/avatar.png" />
+
+  <!-- End of Required Social Preview MetaTags -->
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <!-- Main css Files -->
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <!-- Main Theme Color -->
+  <link rel="stylesheet" class="alternate-style" title="blue" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css" />
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <!-- Preloader End -->
 
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/ovosamja.png" alt="Aldin Dedić" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Aldin Dedić">Aldin Dedić</h1>
-
-          <p class="title">Graphic Designer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Aside -->
+    <div class="aside">
+      <!-- Nav Toggler Btn -->
+      <div class="nav-toggler">
+        <span></span>
       </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:dedicaldin21@gmail.com" class="contact-link">dedicaldin21@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+38762095296" class="contact-link">+38762095296</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 10, 2001</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Sarajevo, Novi Grad, Bosna i Hercegovina</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/profile.php?id=100063503868031" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/mraldinn" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/d3diic/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">O meni</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Ja sam Grafički dizajner iz Sarajeva, Bosna i Hercegovina, radim na reklamnim promocijama i štampanim medijima.
-             uživam u
-             pretvaranju složnih problema u jednostavne, lijepe i intuitivne dizajne.
-          </p>
-
-          <p>
-            Moj posao je da realizujem vaše ideje u djelo tako da bude funkcionalno i lako za korištenje, ali u isto vrijeme i atraktivno. 
-            Štaviše, vašem proizvodu dodajem lični pečat i osiguravam da je privlačan i jednostavan za korištenje. 
-            Moj cilj je prenijeti vašu poruku i identitet na najkreativniji način. 
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Moja Zanimanja</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Graphic design</h4>
-
-                <p class="service-item-text">
-                  Najmoderniji i najkvalitetniji dizajn izrađen na profesionalnom nivou.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Ecommerce</h4>
-
-                <p class="service-item-text">
-                  Kvalitetan razvoj proizvoda na profesionalnom nivou.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Online Marketing</h4>
-
-                <p class="service-item-text">
-                  Profesionalni Online Marketing na Instagram/Facebook/TikTok/Youtube platformama.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Video Editing</h4>
-
-                <p class="service-item-text">
-                  Radim visokokvalitetne video klipove bilo koje kategorije na profesionalnom nivou.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Ocjene</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Rigel" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rigel o.d</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Aldin je angažiran da kreira korporativni identitet. Bili smo veoma zadovoljni obavljenim poslom. On ima
-                     puno iskustva
-                     i veoma je zabrinut za potrebe klijenata.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Playmanity" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Playmanity</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Aldin je angažiran da kreira logotip i reklamu koji bi predstavljao našu kampanju. 
-                    Aldin obavlja svoj posao jako brzo i kvalitetno.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">20 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
+      <div class="aside-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">A.Dedić</a>
         </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="https://discord.gg/playmanity">
-                <img src="./assets/images/logo-1-color.png" alt="Playmanity">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://rigelod.ba">
-                <img src="./assets/images/logo-2-color.png" alt="Rigel">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/project-17.png" alt="Tech Turbo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/project-19.png" alt="Mastec D.O.O">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">CV</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Školovanje</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Osnovna Škola Ćamil Sijarić</h4>
-
-              <span>2007 — 2016</span>
-
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Elektrotehnička škola za Energetiku</h4>
-
-              <span>2016 — 2020</span>
-
-            </li>
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Iskustva</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Grafički Dizajner</h4>
-
-              <span>2010 — Present</span>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Digital Marketing</h4>
-
-              <span>2016 — Present</span>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Video Montaža</h4>
-
-              <span>2013 — Present</span>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DDC MLS Customer Support</h4>
-
-              <span>6 mjeseci radnog odnosa.</span>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Moja iskustva</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Digital Marketing</h5>
-                <data value="80">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Grafički Dizajn</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Video Montaža</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Customer Support</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Ecommerce</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Grafički Dizajn</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Logotip</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Reklamni Letci</button>
-            </li>
-
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Odaberi kategoriju</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Grafički Dizajn</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Logotip</button>
-              </li>
-               <li class="select-item">
-                <button data-select-item>Reklamni letci</button>
-              </li>
-
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="logotip">
-              <a href="./assets/images/project-17.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-17.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Tech Turbo</h3>
-
-                <p class="project-category">Logotip</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="logotip">
-              <a href="./assets/images/project-4.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Rigel</h3>
-
-                <p class="project-category">Logotip</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-10.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-10.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Rasprodaja</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-11.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-11.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Popust</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-
-                        <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-12.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-12.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Popust</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-                        <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-13.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-13.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Popust</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-
-                        <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-14.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-14.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">GiveAway</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-                        <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-15.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-15.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Popust</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-
-                        <li class="project-item  active" data-filter-item data-category="logotip">
-              <a href="./assets/images/project-16.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-16.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Banner</h3>
-
-                <p class="project-category">Logotip</p>
-
-              </a>
-            </li>
-
-                        <li class="project-item  active" data-filter-item data-category="reklamni letci">
-              <a href="./assets/images/project-18.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-18.png" alt="portfolio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Popust</h3>
-
-                <p class="project-category">Reklamni Letci</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="./assets/images/project-6.png" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="Photography" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Photography Landing Page</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Kontakt</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/d/u/0/embed?z=16&mid=1yYZpTfhd1IQ1o9oSv7V73ShfSkY&ll=43.846652799999994%2C18.317062899999982"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Kontakt Forma</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Ime i Prezime required" data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email adresa" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Vaš sastav poruke.." required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Pošalji upit</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
+        <!-- Nav -->
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> &nbsp;O meni</a>
+          </li>
+          <li>
+            <a href="#services"><i class="fa fa-list"></i> Usluge</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i> Kontakt</a>
+          </li>
+        </ul>
+        <!-- Copyright -->
+        <div class="copyright-text" style="text-align: center">
+          &copy; 2022 Aldin Dedić <br />
+          Sva prava pridržana
+        </div>
+      </div>
     </div>
+    <!-- Aside End -->
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Home Section -->
+      <section class="home section active" id="home">
+        <div class="container">
+          <div class="intro">
+            <img src="images/avatar.png" class="shadow-dark" />
+            <h3>Zdravo, Ja sam</h3>
+            <h1>
+              Aldin
+              <span style="color: #00c88f; font-size: 40px; font-weight: 700">
+                Dedić</span>
+            </h1>
+            <span class="iTyped"></span>
+            <div class="social-links">
+              <a href="https://www.facebook.com/profile.php?id=100063503868031" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://instagram.com/d3diic" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+              </a>
+              <a href="https://github.com/mraldinn" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
 
-  </main>
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>O meni</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm a Self Learner and<span> a Dreamer.</span></h3>
+                  <p>
+                    Ja sam Grafički dizajner iz Sarajeva, Bosna i Hercegovina, radim na reklamnim promocijama i štampanim medijima. uživam u pretvaranju složnih problema u jednostavne, lijepe i intuitivne dizajne.
 
+Moj posao je da realizujem vaše ideje u djelo tako da bude funkcionalno i lako za korištenje, ali u isto vrijeme i atraktivno. Štaviše, vašem proizvodu dodajem lični pečat i osiguravam da je privlačan i jednostavan za korištenje. Moj cilj je prenijeti vašu poruku i identitet na najkreativniji način.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Rođendan : <span>10 Juni 2001.</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Godine : <span>21 Godina.</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Grad : <span>Sarajevo.</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>
+                        Država :
+                        <span>
 
+                          Bosna i Hercegovina.</span>
+                      </p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>
+                        Freelance :
+                        <span>
+                          <span class="active" style="
+                                height: 10px;
+                                width: 10px;
+                                border-radius: 50%;
+                                background-color: #00c88f;
+                                display: inline-block;
+                              "></span>
+                          Dostupan.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <!-- <a href="#" class="btn">Download CV</a> -->
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Front End Development</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 60%"></div>
+                        <div class="skill-porcent">60%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>WordPress</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 80%"></div>
+                        <div class="skill-porcent">80%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Graphic Design</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 99%"></div>
+                        <div class="skill-porcent">99%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Digital Marketing</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%"></div>
+                        <div class="skill-porcent">90%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Edukacija</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2007 - 2016
+                          </h6>
+                          <h4 class="timeline-title">
+                            Osnovna Škola Ćamil Sijarić
+                          </h4>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2016 - 2020
+                          </h6>
+                          <h4 class="timeline-title">
+                            Elektrotehnička Škola Za Energetiku
+                          </h4>
+                        </div>
+                        <!-- timeline Item End -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Iskustvo</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> April - Oktobar 2022
+                          </h6>
+                          <h4 class="timeline-title">Customer Support</h4>
+                          <p class="timeline-text">
+                            Imam odlično iskustvo u Customer Support / Unos podataka za Analizu u Firmi
+                            <a href="https://ba.linkedin.com/company/ddc-mls?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">DDC MLS</a> with
+                            Radio sam u ovoj Firmi 6 mj. i Bilo mi je veliko zadovoljstvo raditi u okruženju i uslovima koje Firma pruža.
+                          </p>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> Trenutačno
+                          </h6>
+                          <h4 class="timeline-title">Freelance</h4>
+                          <p class="timeline-text">
+                            Trenutno obavljam poslove koji mi se ponude kao Freelancer.
+                            Uglavnom reklamne proizvode za firme Tech Turbo i Mastec, također vodim i digitalnu marketing kampanju za ove firme.
+                            Kao i objave produkata na njihove Online Radnje.
+                          </p>
+                        </div>
+                        <!-- timeline Item End -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
 
+      <!-- Service Section -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-code"></i></div>
+                <h4>Front End Development</h4>
+                <p>
+                  Kao Front End Developer trenutno radim samo u svoje svrhe kao što je kreiranje ove predivne Web Stranice
+                </p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-wordpress"></i></div>
+                <h4>WordPress Usluge</h4>
+                <p>
+                  U svrhe WordPressa nudim kontrolu i provjere Webstranice da je sve u najboljem redu kao i dodavanje novih produkata/blogova po zahtijevu klijenta.
+                </p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-pencil"></i></div>
+                <h4>Digital Marketing</h4>
+                <p>
+                  U svrhe Digitalnog Marketinga radim Profesionalni Online Marketing na Instagram/Facebook/TikTok/Youtube platformama.
+                </p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-file-code"></i></div>
+                <h4>Grafički Dizajn</h4>
+                <p>
+                  U svrhe Grafičkog Dizajna spadaju Najmoderniji i najkvalitetniji dizajnovi izrađen na profesionalnom nivou.
+                </p>
+              </div>
+            </div>
+            <!-- Service item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Service Section End -->
 
+      <!-- Portfolio Section -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-filter padd-15">
+              <button type="button" class="active" data-filter="all">
+                All
+              </button>
+              <button type="button" data-filter="webdesign">
+                Web Design
+              </button>
+             <button type="button" data-filter="letci">
+                Letci
+              </button>
+                            <button type="button" data-filter="logotip">
+                Logotip
+              </button>
+                            <button type="button" data-filter="banner">
+                Banner
+              </button>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/1.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/2.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/3.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/4.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/5.png" alt="letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/6.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                        <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/7.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                        <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="letci">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/8.png" alt="Letci" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Reklamni Letak</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                      <!-- Portfolio Item End -->
+                        <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="webdesign">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/9.png" alt="Web Design" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Portfolio Design 2015</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="webdesign">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/10.png" alt="Webdesign" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Photography Design 2015</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="logotip">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/11.png" alt="Logotip" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Tech Turbo Logo</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="logotip">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/14.png" alt="Logotip" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Tech Turbo v2 Logo</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                                                <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="banner">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/12.png" alt="Banner" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Tech Turbo Banner</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+                                                            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="banner">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/13.png" alt="Banner" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>Tech Turbo V2 Banner</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+      </section>
+      <!-- Portfolio Section End -->
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Kontaktirajte me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fab fa-facebook-messenger"></i>
+                <h4>Pričajte sa mnom</h4>
+                <p>
+                  <a style="color: #00c88f">Pritisni Donji Desni Čošak ✌</a>
+                </p>
+              </div>
+            </div>
+            <!-- contact-info-item end -->
 
+          <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6399db11b0d6371309d4685e/1gk8fvfju';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+                <h4>Lokacija</h4>
+                <p>Sarajevo, Novi Grad, Bosna i Hercegovina</p>
+              </div>
+            </div>
+            <!-- contact-info-item end -->
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+                <h4>EMail</h4>
+                <a style="color: #00c88f"
+                  href="mailto:dedicaldin21@gmail.com?subject=Hello%20Dear%20Al%20Nahian!%20It's%20an%20urgent.%20I%20need%20to%20talk%20to%20you%20about%20something.&body=Hey%20Al%20Nahian%2C%20I%20will%20be%20very%20happy%20if%20you%20would%20love%20to%20reply%20to%20my%20message.%20I%20have%20some%20important%20talk%20with%20you.%20Please%20FEEL%20FREE%20to%20reply%20as%20soon%20as%20possible.">dedicaldin21@gmail.com</a>
+              </div>
+            </div>
+            <!-- contact-info-item end -->
+          </div>
+
+          <!-- Contact Form -->
+          <!-- I will enable this when I'll have a SMTP Server (@alnahian2003) |16OCT2020===Finally I found one ♥ Third Party Mail Server and Contact Form Added -->
+          <div class="row">
+            <form action="https://formspree.io/a.alnahian2003@gmail.com" class="contact-form padd-15" method="POST">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" name="Name" class="form-control" placeholder="Ime i Prezime*" />
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" name="Email" class="form-control" placeholder="Email*" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" name="Subject" class="form-control" placeholder="Tema*" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea class="form-control" name="Message" placeholder="Vaša poruka..."></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 padd-15">
+                  <button type="submit" class="btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Contact Form End -->
+      </section>
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main Content End -->
+  </div>
+  <!-- Main Container End -->
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <div class="lightbox-close">&times;</div>
+      <img src="" alt="" onclick="nextItem()" class="lightbox-img" />
+      <div class="lightbox-caption">
+        <div class="caption-text"></div>
+        <div class="caption-counter"></div>
+      </div>
+    </div>
+    <div class="lightbox-controls">
+      <div class="prev-item" onclick="prevItem()">
+        <i class="fa fa-angle-left"></i>
+      </div>
+      <div class="next-item" onclick="nextItem()">
+        <i class="fa fa-angle-right"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Lightbox End -->
+
+  <!-- Dark Mode Swithcher -->
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fa fa-adjust"></i>
+    </div>
+  </div>
+  <!-- Dark Mode Switcher -->
+
+  <!-- Main js -->
+  <script src="js/script.js"></script>
 </body>
 
 </html>
+
